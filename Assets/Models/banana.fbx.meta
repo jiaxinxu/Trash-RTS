@@ -1,0 +1,625 @@
+fileFormatVersion: 2
+guid: c98945c87e1974ea7ab6a4f9cda36393
+timeCreated: 1474426574
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Armature
+    100002: //RootNode
+    100004: Camera
+    100006: Head
+    100008: Head_end
+    100010: Lamp
+    100012: Lef4IK
+    100014: Lef4IK_end
+    100016: Leg1IK
+    100018: Leg1IK_end
+    100020: Leg1PoleTarget
+    100022: Leg1PoleTarget_end
+    100024: Leg2IK
+    100026: Leg2IK_end
+    100028: Leg2PoleTarget
+    100030: Leg2PoleTarget_end
+    100032: Leg3IK
+    100034: Leg3IK_end
+    100036: Leg3PoleTarget
+    100038: Leg3PoleTarget_end
+    100040: Leg4PoleTarget
+    100042: Leg4PoleTarget_end
+    100044: pCube13
+    100046: pCube14
+    100048: pCube15
+    100050: pCube2
+    100052: pCube3
+    100054: pCube4
+    100056: pCube5
+    100058: pCube7
+    100060: Spine
+    100062: Spine.001
+    100064: Spine.002
+    100066: Spine.003
+    100068: Spine.004
+    100070: Spine.004_end
+    100072: Spine.005
+    100074: Spine.006
+    100076: Spine.007
+    100078: Spine.008
+    100080: Spine.008_end
+    100082: Spine.009
+    100084: Spine.010
+    100086: Spine.011
+    100088: Spine.012
+    100090: Spine.012_end
+    100092: Spine.013
+    100094: Spine.014
+    100096: Spine.015
+    100098: Spine.016
+    100100: Spine.016_end
+    100102: transform21
+    100104: transform22
+    100106: transform23
+    100108: transform24
+    100110: transform25
+    100112: transform26
+    100114: transform27
+    400000: Armature
+    400002: //RootNode
+    400004: Camera
+    400006: Head
+    400008: Head_end
+    400010: Lamp
+    400012: Lef4IK
+    400014: Lef4IK_end
+    400016: Leg1IK
+    400018: Leg1IK_end
+    400020: Leg1PoleTarget
+    400022: Leg1PoleTarget_end
+    400024: Leg2IK
+    400026: Leg2IK_end
+    400028: Leg2PoleTarget
+    400030: Leg2PoleTarget_end
+    400032: Leg3IK
+    400034: Leg3IK_end
+    400036: Leg3PoleTarget
+    400038: Leg3PoleTarget_end
+    400040: Leg4PoleTarget
+    400042: Leg4PoleTarget_end
+    400044: pCube13
+    400046: pCube14
+    400048: pCube15
+    400050: pCube2
+    400052: pCube3
+    400054: pCube4
+    400056: pCube5
+    400058: pCube7
+    400060: Spine
+    400062: Spine.001
+    400064: Spine.002
+    400066: Spine.003
+    400068: Spine.004
+    400070: Spine.004_end
+    400072: Spine.005
+    400074: Spine.006
+    400076: Spine.007
+    400078: Spine.008
+    400080: Spine.008_end
+    400082: Spine.009
+    400084: Spine.010
+    400086: Spine.011
+    400088: Spine.012
+    400090: Spine.012_end
+    400092: Spine.013
+    400094: Spine.014
+    400096: Spine.015
+    400098: Spine.016
+    400100: Spine.016_end
+    400102: transform21
+    400104: transform22
+    400106: transform23
+    400108: transform24
+    400110: transform25
+    400112: transform26
+    400114: transform27
+    4300000: pCube15
+    7400000: Armature_AttackAnimation
+    7400002: Armature_Idle_Loop
+    7400004: Armature_WalkCycle
+    9500000: //RootNode
+    13700000: pCube15
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Armature_AttackAnimation
+      takeName: Armature|AttackAnimation
+      firstFrame: 0
+      lastFrame: 48
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Lef4IK
+        weight: 1
+      - path: Armature/Lef4IK/Lef4IK_end
+        weight: 1
+      - path: Armature/Leg1IK
+        weight: 1
+      - path: Armature/Leg1IK/Leg1IK_end
+        weight: 1
+      - path: Armature/Leg1PoleTarget
+        weight: 1
+      - path: Armature/Leg1PoleTarget/Leg1PoleTarget_end
+        weight: 1
+      - path: Armature/Leg2IK
+        weight: 1
+      - path: Armature/Leg2IK/Leg2IK_end
+        weight: 1
+      - path: Armature/Leg2PoleTarget
+        weight: 1
+      - path: Armature/Leg2PoleTarget/Leg2PoleTarget_end
+        weight: 1
+      - path: Armature/Leg3IK
+        weight: 1
+      - path: Armature/Leg3IK/Leg3IK_end
+        weight: 1
+      - path: Armature/Leg3PoleTarget
+        weight: 1
+      - path: Armature/Leg3PoleTarget/Leg3PoleTarget_end
+        weight: 1
+      - path: Armature/Leg4PoleTarget
+        weight: 1
+      - path: Armature/Leg4PoleTarget/Leg4PoleTarget_end
+        weight: 1
+      - path: Armature/Spine
+        weight: 1
+      - path: Armature/Spine/Head
+        weight: 1
+      - path: Armature/Spine/Head/Head_end
+        weight: 1
+      - path: Armature/Spine/Spine.001
+        weight: 1
+      - path: Armature/Spine/Spine.001/Spine.002
+        weight: 1
+      - path: Armature/Spine/Spine.001/Spine.002/Spine.003
+        weight: 1
+      - path: Armature/Spine/Spine.001/Spine.002/Spine.003/Spine.004
+        weight: 1
+      - path: Armature/Spine/Spine.001/Spine.002/Spine.003/Spine.004/Spine.004_end
+        weight: 1
+      - path: Armature/Spine/Spine.005
+        weight: 1
+      - path: Armature/Spine/Spine.005/Spine.006
+        weight: 1
+      - path: Armature/Spine/Spine.005/Spine.006/Spine.007
+        weight: 1
+      - path: Armature/Spine/Spine.005/Spine.006/Spine.007/Spine.008
+        weight: 1
+      - path: Armature/Spine/Spine.005/Spine.006/Spine.007/Spine.008/Spine.008_end
+        weight: 1
+      - path: Armature/Spine/Spine.009
+        weight: 1
+      - path: Armature/Spine/Spine.009/Spine.010
+        weight: 1
+      - path: Armature/Spine/Spine.009/Spine.010/Spine.011
+        weight: 1
+      - path: Armature/Spine/Spine.009/Spine.010/Spine.011/Spine.012
+        weight: 1
+      - path: Armature/Spine/Spine.009/Spine.010/Spine.011/Spine.012/Spine.012_end
+        weight: 1
+      - path: Armature/Spine/Spine.013
+        weight: 1
+      - path: Armature/Spine/Spine.013/Spine.014
+        weight: 1
+      - path: Armature/Spine/Spine.013/Spine.014/Spine.015
+        weight: 1
+      - path: Armature/Spine/Spine.013/Spine.014/Spine.015/Spine.016
+        weight: 1
+      - path: Armature/Spine/Spine.013/Spine.014/Spine.015/Spine.016/Spine.016_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: pCube2
+        weight: 1
+      - path: pCube2/transform25
+        weight: 1
+      - path: pCube3
+        weight: 1
+      - path: pCube3/transform24
+        weight: 1
+      - path: pCube4
+        weight: 1
+      - path: pCube4/transform22
+        weight: 1
+      - path: pCube5
+        weight: 1
+      - path: pCube5/transform21
+        weight: 1
+      - path: pCube7
+        weight: 1
+      - path: pCube7/transform23
+        weight: 1
+      - path: pCube13
+        weight: 1
+      - path: pCube13/transform27
+        weight: 1
+      - path: pCube14
+        weight: 1
+      - path: pCube14/transform26
+        weight: 1
+      - path: pCube15
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature_Idle_Loop
+      takeName: Armature|Idle_Loop
+      firstFrame: 0
+      lastFrame: 36
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Lef4IK
+        weight: 1
+      - path: Armature/Lef4IK/Lef4IK_end
+        weight: 1
+      - path: Armature/Leg1IK
+        weight: 1
+      - path: Armature/Leg1IK/Leg1IK_end
+        weight: 1
+      - path: Armature/Leg1PoleTarget
+        weight: 1
+      - path: Armature/Leg1PoleTarget/Leg1PoleTarget_end
+        weight: 1
+      - path: Armature/Leg2IK
+        weight: 1
+      - path: Armature/Leg2IK/Leg2IK_end
+        weight: 1
+      - path: Armature/Leg2PoleTarget
+        weight: 1
+      - path: Armature/Leg2PoleTarget/Leg2PoleTarget_end
+        weight: 1
+      - path: Armature/Leg3IK
+        weight: 1
+      - path: Armature/Leg3IK/Leg3IK_end
+        weight: 1
+      - path: Armature/Leg3PoleTarget
+        weight: 1
+      - path: Armature/Leg3PoleTarget/Leg3PoleTarget_end
+        weight: 1
+      - path: Armature/Leg4PoleTarget
+        weight: 1
+      - path: Armature/Leg4PoleTarget/Leg4PoleTarget_end
+        weight: 1
+      - path: Armature/Spine
+        weight: 1
+      - path: Armature/Spine/Head
+        weight: 1
+      - path: Armature/Spine/Head/Head_end
+        weight: 1
+      - path: Armature/Spine/Spine.001
+        weight: 1
+      - path: Armature/Spine/Spine.001/Spine.002
+        weight: 1
+      - path: Armature/Spine/Spine.001/Spine.002/Spine.003
+        weight: 1
+      - path: Armature/Spine/Spine.001/Spine.002/Spine.003/Spine.004
+        weight: 1
+      - path: Armature/Spine/Spine.001/Spine.002/Spine.003/Spine.004/Spine.004_end
+        weight: 1
+      - path: Armature/Spine/Spine.005
+        weight: 1
+      - path: Armature/Spine/Spine.005/Spine.006
+        weight: 1
+      - path: Armature/Spine/Spine.005/Spine.006/Spine.007
+        weight: 1
+      - path: Armature/Spine/Spine.005/Spine.006/Spine.007/Spine.008
+        weight: 1
+      - path: Armature/Spine/Spine.005/Spine.006/Spine.007/Spine.008/Spine.008_end
+        weight: 1
+      - path: Armature/Spine/Spine.009
+        weight: 1
+      - path: Armature/Spine/Spine.009/Spine.010
+        weight: 1
+      - path: Armature/Spine/Spine.009/Spine.010/Spine.011
+        weight: 1
+      - path: Armature/Spine/Spine.009/Spine.010/Spine.011/Spine.012
+        weight: 1
+      - path: Armature/Spine/Spine.009/Spine.010/Spine.011/Spine.012/Spine.012_end
+        weight: 1
+      - path: Armature/Spine/Spine.013
+        weight: 1
+      - path: Armature/Spine/Spine.013/Spine.014
+        weight: 1
+      - path: Armature/Spine/Spine.013/Spine.014/Spine.015
+        weight: 1
+      - path: Armature/Spine/Spine.013/Spine.014/Spine.015/Spine.016
+        weight: 1
+      - path: Armature/Spine/Spine.013/Spine.014/Spine.015/Spine.016/Spine.016_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: pCube2
+        weight: 1
+      - path: pCube2/transform25
+        weight: 1
+      - path: pCube3
+        weight: 1
+      - path: pCube3/transform24
+        weight: 1
+      - path: pCube4
+        weight: 1
+      - path: pCube4/transform22
+        weight: 1
+      - path: pCube5
+        weight: 1
+      - path: pCube5/transform21
+        weight: 1
+      - path: pCube7
+        weight: 1
+      - path: pCube7/transform23
+        weight: 1
+      - path: pCube13
+        weight: 1
+      - path: pCube13/transform27
+        weight: 1
+      - path: pCube14
+        weight: 1
+      - path: pCube14/transform26
+        weight: 1
+      - path: pCube15
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature_WalkCycle
+      takeName: Armature|WalkCycle
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Lef4IK
+        weight: 1
+      - path: Armature/Lef4IK/Lef4IK_end
+        weight: 1
+      - path: Armature/Leg1IK
+        weight: 1
+      - path: Armature/Leg1IK/Leg1IK_end
+        weight: 1
+      - path: Armature/Leg1PoleTarget
+        weight: 1
+      - path: Armature/Leg1PoleTarget/Leg1PoleTarget_end
+        weight: 1
+      - path: Armature/Leg2IK
+        weight: 1
+      - path: Armature/Leg2IK/Leg2IK_end
+        weight: 1
+      - path: Armature/Leg2PoleTarget
+        weight: 1
+      - path: Armature/Leg2PoleTarget/Leg2PoleTarget_end
+        weight: 1
+      - path: Armature/Leg3IK
+        weight: 1
+      - path: Armature/Leg3IK/Leg3IK_end
+        weight: 1
+      - path: Armature/Leg3PoleTarget
+        weight: 1
+      - path: Armature/Leg3PoleTarget/Leg3PoleTarget_end
+        weight: 1
+      - path: Armature/Leg4PoleTarget
+        weight: 1
+      - path: Armature/Leg4PoleTarget/Leg4PoleTarget_end
+        weight: 1
+      - path: Armature/Spine
+        weight: 1
+      - path: Armature/Spine/Head
+        weight: 1
+      - path: Armature/Spine/Head/Head_end
+        weight: 1
+      - path: Armature/Spine/Spine.001
+        weight: 1
+      - path: Armature/Spine/Spine.001/Spine.002
+        weight: 1
+      - path: Armature/Spine/Spine.001/Spine.002/Spine.003
+        weight: 1
+      - path: Armature/Spine/Spine.001/Spine.002/Spine.003/Spine.004
+        weight: 1
+      - path: Armature/Spine/Spine.001/Spine.002/Spine.003/Spine.004/Spine.004_end
+        weight: 1
+      - path: Armature/Spine/Spine.005
+        weight: 1
+      - path: Armature/Spine/Spine.005/Spine.006
+        weight: 1
+      - path: Armature/Spine/Spine.005/Spine.006/Spine.007
+        weight: 1
+      - path: Armature/Spine/Spine.005/Spine.006/Spine.007/Spine.008
+        weight: 1
+      - path: Armature/Spine/Spine.005/Spine.006/Spine.007/Spine.008/Spine.008_end
+        weight: 1
+      - path: Armature/Spine/Spine.009
+        weight: 1
+      - path: Armature/Spine/Spine.009/Spine.010
+        weight: 1
+      - path: Armature/Spine/Spine.009/Spine.010/Spine.011
+        weight: 1
+      - path: Armature/Spine/Spine.009/Spine.010/Spine.011/Spine.012
+        weight: 1
+      - path: Armature/Spine/Spine.009/Spine.010/Spine.011/Spine.012/Spine.012_end
+        weight: 1
+      - path: Armature/Spine/Spine.013
+        weight: 1
+      - path: Armature/Spine/Spine.013/Spine.014
+        weight: 1
+      - path: Armature/Spine/Spine.013/Spine.014/Spine.015
+        weight: 1
+      - path: Armature/Spine/Spine.013/Spine.014/Spine.015/Spine.016
+        weight: 1
+      - path: Armature/Spine/Spine.013/Spine.014/Spine.015/Spine.016/Spine.016_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: pCube2
+        weight: 1
+      - path: pCube2/transform25
+        weight: 1
+      - path: pCube3
+        weight: 1
+      - path: pCube3/transform24
+        weight: 1
+      - path: pCube4
+        weight: 1
+      - path: pCube4/transform22
+        weight: 1
+      - path: pCube5
+        weight: 1
+      - path: pCube5/transform21
+        weight: 1
+      - path: pCube7
+        weight: 1
+      - path: pCube7/transform23
+        weight: 1
+      - path: pCube13
+        weight: 1
+      - path: pCube13/transform27
+        weight: 1
+      - path: pCube14
+        weight: 1
+      - path: pCube14/transform26
+        weight: 1
+      - path: pCube15
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
