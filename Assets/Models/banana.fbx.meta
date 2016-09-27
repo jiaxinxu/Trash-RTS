@@ -126,6 +126,7 @@ ModelImporter:
     7400002: Armature_Idle_Loop
     7400004: Armature_WalkCycle
     9500000: //RootNode
+    11100000: //RootNode
     13700000: pCube15
   materials:
     importMaterials: 1
@@ -134,7 +135,7 @@ ModelImporter:
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
-    resampleCurves: 1
+    resampleRotations: 1
     optimizeGameObjects: 0
     motionNodeName: 
     animationImportErrors: 
@@ -617,7 +618,7 @@ ModelImporter:
     rootMotionBoneName: 
     hasTranslationDoF: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 1
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
