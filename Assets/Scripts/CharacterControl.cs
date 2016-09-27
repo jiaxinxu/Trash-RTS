@@ -4,7 +4,7 @@ using System.Collections;
 public class CharacterControl : MonoBehaviour {
 
 	// Use this for initialization
-	private bool selected = false;
+	public bool selected = false;
 	private NavMeshAgent agent;
 	//private Animator anim;
 	private Vector3 MoveTo;

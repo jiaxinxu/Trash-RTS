@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class selectObject : MonoBehaviour {
-	public GameObject selectedUnit;
+	private GameObject selectedUnit;
 
 	void  Start (){
 		
@@ -13,7 +13,7 @@ public class selectObject : MonoBehaviour {
 		Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
 		if (Physics.Raycast(ray, out hit))
 		{
-			if (hit.transform.tag == "Player" && Input.GetMouseButtonDown(0))
+			if (hit.transform.tag == "Trash" && Input.GetMouseButtonDown(0))
 			{
 				selectedUnit = hit.transform.gameObject;
 				selectedUnit.SendMessage("Select", 1);
