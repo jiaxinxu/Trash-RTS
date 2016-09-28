@@ -40,9 +40,10 @@ public class selectObject : MonoBehaviour
                 //if the player right clicked, tell the selected unit to move
                 else if (Input.GetMouseButtonDown(1))
                 {
+                    Debug.Log("right click");
                     if (selectedUnit != null)
                     {
-                        selectedUnit.SendMessage("Destination", hit.point);
+                        selectedUnit.SendMessage("RightClick", hit);
                     }
                 }
             }

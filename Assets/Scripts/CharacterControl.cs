@@ -1,49 +1,54 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class CharacterControl : MonoBehaviour {
+public class CharacterControl : MonoBehaviour
+{
+    // Use this for initialization
+    public float maximumAttackDistance = 0f;
+    public bool selected = false;
 
-	// Use this for initialization
-	public bool selected = false;
-	private NavMeshAgent agent;
-	//private Animator anim;
-	private Vector3 MoveTo;
-	private bool Move = false;
+    private NavMeshAgent agent;
+    private Animator anim;
 
-	void  Start (){
-		//anim = gameObject.transform.FindChild("Constructor").GetComponent<Animator>();
-		agent = gameObject.GetComponent<NavMeshAgent>();
-	}
+    void Start()
+    {
+        anim = GetComponentInChildren<Animator>();
+        agent = GetComponent<NavMeshAgent>();
+    }
 
-	void  Update (){
-		if (selected && Move)
-		{
-			agent.SetDestination(MoveTo);
-		}
-		if (agent.pathStatus == NavMeshPathStatus.PathComplete)
-		{
-			Move = false;
-		}
-	}
+    void Update()
+    {
+        anim.SetBool("Walking", agent.remainingDistance > .1f);
+    }
 
-	void  Select (int x){
-		selected = true;
-	}
+    void Select(int x)
+    {
+        selected = true;
+    }
 
-	void  Deselect (int x){
-		selected = false;
-	}
+    void Deselect(int x)
+    {
+        selected = false;
+    }
 
-	void  Destination (Vector3 d){
-		MoveTo = d;
-		Move = true;
-	}
+    void RightClick(RaycastHit clickHit)
+    {
+        Debug.Log("test");
+        if(clickHit.collider.gameObject.tag == "Table")
+        {
+            agent.SetDestination(clickHit.point);
+        }
+        else if(clickHit.collider.gameObject.tag == "OfficeMaterial")
+        {
 
-		
+        }
+    }
 
 
-		
-	}
-	
+
+
+
+}
+
 
 
