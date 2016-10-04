@@ -3,18 +3,29 @@ using System.Collections;
 
 public class PlayerNavigation : MonoBehaviour {
 
+    Animator theAnimator;
     NavMeshAgent navigationAgent;
     public AudioMaster SoundMaster;
 
 	// Use this for initialization
 	void Start () {
         navigationAgent = GetComponent<NavMeshAgent>();
-	}
-	
-	// Update is called once per frame
-	void Update () {
+        theAnimator = GetComponentInChildren<Animator>();
+        theAnimator.SetBool("Idle", navigationAgent.remainingDistance < .3f);
+    }
+
+    // Update is called once per frame
+    void Update () {
         ClickToMove();
-	}
+        if (navigationAgent.remainingDistance > .1f)
+        {
+            theAnimator.SetBool("Walking", navigationAgent.remainingDistance > .3f);
+        }
+        else
+        {
+            theAnimator.SetBool("Idle", navigationAgent.remainingDistance < .3f);
+        }
+    }
 
     //Pretty self explanatory 
     void ClickToMove()
@@ -27,7 +38,7 @@ public class PlayerNavigation : MonoBehaviour {
             if (Physics.Raycast(mouseRay, out mouseClick, 100))
             {
                 navigationAgent.SetDestination(mouseClick.point);
-//                SoundMaster.PlayTravelSFX();
+
             }
         }
     }
