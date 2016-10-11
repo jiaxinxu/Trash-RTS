@@ -43,11 +43,6 @@ public class CharacterControl : MonoBehaviour
 
         }
     }
-
-
-
-
-
 }
 
 

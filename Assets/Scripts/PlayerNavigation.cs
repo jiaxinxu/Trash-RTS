@@ -21,10 +21,6 @@ public class PlayerNavigation : MonoBehaviour {
         {
             theAnimator.SetBool("Walking", navigationAgent.remainingDistance > .3f);
         }
-        else
-        {
-            theAnimator.SetBool("Idle", navigationAgent.remainingDistance < .3f);
-        }
     }
 
     //Pretty self explanatory 

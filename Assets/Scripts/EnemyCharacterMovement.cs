@@ -32,7 +32,6 @@ public class EnemyCharacterMovement : MonoBehaviour {
         }
 
     }
-
 	void CreateTarPoint() {
 		dampX = Random.Range (1.0f, 3.0f);
 		dampZ = Random.Range (1.0f, 3.0f);
@@ -40,6 +39,4 @@ public class EnemyCharacterMovement : MonoBehaviour {
 		tarX = Random.Range (minTarX, maxTarX) - dampX;
 		tarZ = Random.Range (minTarZ, maxTarZ) - dampZ;
     }
-
-
 }

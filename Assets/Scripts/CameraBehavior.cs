@@ -42,7 +42,7 @@ public class CameraBehavior : MonoBehaviour {
         {
             //Calculates the distance between the camera and object below it
             currentDistance = Vector3.Distance(transform.position, hit.point);
-            Debug.Log(hit.collider.name);
+           // Debug.Log(hit.collider.name);
         }
         //If the camera is colliding with an object
         if (currentDistance != cameraDistance)

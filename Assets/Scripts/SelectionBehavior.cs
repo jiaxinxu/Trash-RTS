@@ -1,9 +1,9 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class selectObject : MonoBehaviour
+public class SelectionBehavior : MonoBehaviour
 {
-    private GameObject selectedUnit;
+    private GameObject SelectedUnit;
 
     void Start()
     {
@@ -24,16 +24,19 @@ public class selectObject : MonoBehaviour
                 {
                     if (hit.transform.tag == "Trash")
                     {
-                        selectedUnit = hit.transform.gameObject;
-                        selectedUnit.SendMessage("Select", 1);
+                        SelectedUnit = hit.transform.gameObject;
+                        SelectedUnit.SendMessage("Select", 1);
+                        SelectedUnit.SendMessage("ThisSelected", 1);
+                        Debug.Log(SelectedUnit);
                     }
                     else
                     {
-                        if (selectedUnit != null)
+                        if (SelectedUnit != null)
                         {
-                            selectedUnit.SendMessage("Deselect", 1);
+                            SelectedUnit.SendMessage("Deselect", 1);
+                            SelectedUnit.SendMessage("Unselected", 1);
                         }
-                        selectedUnit = null;
+                        SelectedUnit = null;
                     }
                 }
 
@@ -41,9 +44,9 @@ public class selectObject : MonoBehaviour
                 else if (Input.GetMouseButtonDown(1))
                 {
                     Debug.Log("right click");
-                    if (selectedUnit != null)
+                    if (SelectedUnit != null)
                     {
-                        selectedUnit.SendMessage("RightClick", hit);
+                        SelectedUnit.SendMessage("RightClick", hit);
                     }
                 }
             }
