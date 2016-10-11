@@ -29,7 +29,7 @@ public class EnemyCharacterMovement : MonoBehaviour {
 			timeSwitch -= 1 * Time.deltaTime;
             agent.destination = new Vector3(tarX, 0, tarZ);
         }
-        Debug.Log(timeSwitch);
+        //Debug.Log(timeSwitch);
     }
 	void CreateTarPoint() {
 		dampX = Random.Range (1.0f, 3.0f);

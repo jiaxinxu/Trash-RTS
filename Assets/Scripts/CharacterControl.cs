@@ -25,6 +25,13 @@ public class CharacterControl : MonoBehaviour
         if (following)
         {
             agent.SetDestination(FollowObject.transform.position);
+            Vector3 distance = this.transform.position - FollowObject.transform.position;
+            float theDistance = Mathf.Abs(distance.magnitude);
+            Debug.Log(theDistance);
+            if (theDistance <= 1.5f)
+            {
+                anim.SetBool("Attack", agent.remainingDistance > .1f);
+            }
         }
     }
 
@@ -50,6 +57,10 @@ public class CharacterControl : MonoBehaviour
         {
             following = true;
             FollowObject = clickHit.collider.gameObject;
+        }
+        else
+        {
+            following = false;
         }
     }
 }
