@@ -10,6 +10,10 @@ public class CharacterControl : MonoBehaviour
     public bool following = false;
     public GameObject FollowObject;
 
+    public GameObject AttackBox;
+    public bool attacking = false;
+    float attackWindUpTimer = 0.75f;
+
     private NavMeshAgent agent;
     private Animator anim;
 
@@ -27,7 +31,7 @@ public class CharacterControl : MonoBehaviour
             agent.SetDestination(FollowObject.transform.position);
             Vector3 distance = this.transform.position - FollowObject.transform.position;
             float theDistance = Mathf.Abs(distance.magnitude);
-            Debug.Log(theDistance);
+            //Debug.Log(theDistance);
             if (theDistance <= 1.5f)
             {
                 anim.SetBool("Attack", agent.remainingDistance > .1f);
@@ -63,7 +67,8 @@ public class CharacterControl : MonoBehaviour
             following = false;
         }
     }
+    void AttackEnemy()
+    {
+        Instantiate(AttackBox, this.transform.position + new Vector3(0.0f, 0.0f, 1.0f), this.transform.rotation);
+    }
 }
-
-
-
