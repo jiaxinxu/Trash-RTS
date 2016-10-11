@@ -375,7 +375,7 @@ GameObject:
   - 114: {fileID: 289311333}
   m_Layer: 0
   m_Name: Office Material Character1
-  m_TagString: Untagged
+  m_TagString: OfficeMaterial
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

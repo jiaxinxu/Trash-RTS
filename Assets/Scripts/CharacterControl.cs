@@ -7,6 +7,9 @@ public class CharacterControl : MonoBehaviour
     public float maximumAttackDistance = 0f;
     public bool selected = false;
 
+    public bool following = false;
+    public GameObject FollowObject;
+
     private NavMeshAgent agent;
     private Animator anim;
 
@@ -19,6 +22,10 @@ public class CharacterControl : MonoBehaviour
     void Update()
     {
         anim.SetBool("Walking", agent.remainingDistance > .1f);
+        if (following)
+        {
+            agent.SetDestination(FollowObject.transform.position);
+        }
     }
 
     void Select(int x)
@@ -36,11 +43,13 @@ public class CharacterControl : MonoBehaviour
         Debug.Log("test");
         if(clickHit.collider.gameObject.tag == "Table")
         {
+            following = false;
             agent.SetDestination(clickHit.point);
         }
         else if(clickHit.collider.gameObject.tag == "OfficeMaterial")
         {
-
+            following = true;
+            FollowObject = clickHit.collider.gameObject;
         }
     }
 }
