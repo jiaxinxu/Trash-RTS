@@ -25,6 +25,10 @@ public class CharacterControl : MonoBehaviour
 
     void Update()
     {
+        if (FollowObject == null)
+        {
+            following = false;
+        }
         anim.SetBool("Walking", agent.remainingDistance > .1f);
         if (following)
         {
@@ -69,6 +73,9 @@ public class CharacterControl : MonoBehaviour
     }
     void AttackEnemy()
     {
-        Instantiate(AttackBox, this.transform.position + new Vector3(0.0f, 0.0f, 1.0f), this.transform.rotation);
+        if (FollowObject != null)
+        {
+            Instantiate(AttackBox, FollowObject.transform.position + new Vector3(0.0f, 0.0f, 0.0f), Quaternion.identity);
+        }
     }
 }
