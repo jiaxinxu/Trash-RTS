@@ -1,6 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{2154AE95-2F13-41AB-9ED3-86C8F00FEA42}" SchemaVersion="72">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{2154AE95-2F13-41AB-9ED3-86C8F00FEA42}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{2154AE95-2F13-41AB-9ED3-86C8F00FEA42}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_BananaAttack" ID="{6DBC92EB-327B-483B-95C3-9D58025DA648}">
+					<ChildrenList>
+						<Action Name="Play" ID="{8449501D-6FC4-4675-8834-24891FF0D6BF}" ShortID="185610906" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{12F05420-10BD-49B6-A98A-C35099AA567F}" Global="false">
+									<ObjectRef Name="BananaAttack" ID="{B28E5E7D-6C10-48B1-96CF-2F5F2361F229}" WorkUnitID="{BBB73B5D-0940-437F-B287-B1FD4CD76540}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_DeathScream" ID="{ED4533AC-46D0-4D2F-8214-8D17362508FF}">
+					<ChildrenList>
+						<Action Name="Play" ID="{688471BF-3D08-41E6-869C-9F48D071AD93}" ShortID="831351023" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{37F3B22F-79B4-4AFC-A684-DB94C2CAF305}" Global="false">
+									<ObjectRef Name="DeathScream" ID="{579C2D00-3BD4-4CA7-9744-B55395285D42}" WorkUnitID="{BBB73B5D-0940-437F-B287-B1FD4CD76540}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_TakeDamage" ID="{733F83BD-4124-4691-AF1A-12307F9B3E5A}">
+					<ChildrenList>
+						<Action Name="Play" ID="{1A198040-B6CE-4D9B-B75C-B0920968AE2A}" ShortID="1073117898" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{7AAF8252-B0E8-4F60-9229-F599587A3C0F}" Global="false">
+									<ObjectRef Name="TakeDamage" ID="{916C5731-2796-40FD-8636-0E6867A2E1E8}" WorkUnitID="{BBB73B5D-0940-437F-B287-B1FD4CD76540}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

@@ -1497,6 +1497,7 @@ GameObject:
   - 4: {fileID: 1957902504}
   - 114: {fileID: 1957902503}
   - 114: {fileID: 1957902502}
+  - 114: {fileID: 1957902505}
   m_Layer: 0
   m_Name: WwiseGlobal
   m_TagString: Untagged
@@ -1547,6 +1548,25 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 8
+--- !u!114 &1957902505
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1957902501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de9edf10e53c3384ba8a6df33e3e1f26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: f7e1664c
+  useOtherObject: 0
+  valueGuid: 9d46aff377ff4740b3c9bebd33ce238f
+  bankName: Main
+  loadAsynchronous: 0
+  decodeBank: 0
+  saveDecodedBank: 0
+  unloadTriggerList: 
 --- !u!1 &1968733713
 GameObject:
   m_ObjectHideFlags: 0

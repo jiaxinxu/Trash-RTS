@@ -4,7 +4,11 @@
 		<WorkUnit Name="Default Work Unit" ID="{D00CA2CD-1D76-46CB-917A-200411401B62}" PersistMode="Standalone">
 			<ChildrenList>
 				<SoundBank Name="Main" ID="{F3AF469D-FF77-4047-B3C9-BEBD33CE238F}">
-					<ObjectInclusionList/>
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_TakeDamage" ID="{733F83BD-4124-4691-AF1A-12307F9B3E5A}" WorkUnitID="{2154AE95-2F13-41AB-9ED3-86C8F00FEA42}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_BananaAttack" ID="{6DBC92EB-327B-483B-95C3-9D58025DA648}" WorkUnitID="{2154AE95-2F13-41AB-9ED3-86C8F00FEA42}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_DeathScream" ID="{ED4533AC-46D0-4D2F-8214-8D17362508FF}" WorkUnitID="{2154AE95-2F13-41AB-9ED3-86C8F00FEA42}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>

@@ -20,6 +20,69 @@
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3557827385" Name="Play_BananaAttack" ObjectPath="\Events\Default Work Unit\Play_BananaAttack"/>
+				<Event Id="2294960647" Name="Play_DeathScream" ObjectPath="\Events\Default Work Unit\Play_DeathScream"/>
+				<Event Id="1315981400" Name="Play_TakeDamage" ObjectPath="\Events\Default Work Unit\Play_TakeDamage"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="92681106" Language="SFX">
+					<ShortName>CC-DS Punch Knuckle Blunt Hard 02.wav</ShortName>
+					<Path>SFX\CC-DS Punch Knuckle Blunt Hard 02_044B250B.wem</Path>
+				</File>
+				<File Id="128293898" Language="SFX">
+					<ShortName>CC-DS Punch Knuckle Blunt Medium 02.wav</ShortName>
+					<Path>SFX\CC-DS Punch Knuckle Blunt Medium 02_3714957E.wem</Path>
+				</File>
+				<File Id="197603794" Language="SFX">
+					<ShortName>CC-CK VO Male 04 Pain Hard.wav</ShortName>
+					<Path>SFX\CC-CK VO Male 04 Pain Hard_EBE48056.wem</Path>
+				</File>
+				<File Id="414665998" Language="SFX">
+					<ShortName>CC-CK VO Male 01 Deathscream.wav</ShortName>
+					<Path>SFX\CC-CK VO Male 01 Deathscream_13E680D0.wem</Path>
+				</File>
+				<File Id="508713509" Language="SFX">
+					<ShortName>CC-DS Punch Knuckle Bright Medium 01.wav</ShortName>
+					<Path>SFX\CC-DS Punch Knuckle Bright Medium 01_A1EDED7B.wem</Path>
+				</File>
+				<File Id="514163893" Language="SFX">
+					<ShortName>CC-DS Punch Knuckle Bright Hard 01.wav</ShortName>
+					<Path>SFX\CC-DS Punch Knuckle Bright Hard 01_873FC528.wem</Path>
+				</File>
+				<File Id="558522069" Language="SFX">
+					<ShortName>CC-CK VO Male 03 Pain Hard.wav</ShortName>
+					<Path>SFX\CC-CK VO Male 03 Pain Hard_8ED0DAEC.wem</Path>
+				</File>
+				<File Id="729850098" Language="SFX">
+					<ShortName>CC-CK VO Male 03 Deathscream.wav</ShortName>
+					<Path>SFX\CC-CK VO Male 03 Deathscream_009B0B5C.wem</Path>
+				</File>
+				<File Id="766597179" Language="SFX">
+					<ShortName>CC-CK VO Male 04 Deathscream.wav</ShortName>
+					<Path>SFX\CC-CK VO Male 04 Deathscream_0D7745EB.wem</Path>
+				</File>
+				<File Id="885820557" Language="SFX">
+					<ShortName>CC-CK VO Male 02 Deathscream.wav</ShortName>
+					<Path>SFX\CC-CK VO Male 02 Deathscream_A3521A3E.wem</Path>
+				</File>
+				<File Id="912931820" Language="SFX">
+					<ShortName>CC-CK VO Male 01 Pain Hard.wav</ShortName>
+					<Path>SFX\CC-CK VO Male 01 Pain Hard_334E3B63.wem</Path>
+				</File>
+				<File Id="937239536" Language="SFX">
+					<ShortName>CC-DS Punch Knuckle Bright Hard 02.wav</ShortName>
+					<Path>SFX\CC-DS Punch Knuckle Bright Hard 02_92034ED3.wem</Path>
+				</File>
+				<File Id="965464787" Language="SFX">
+					<ShortName>CC-DS Punch Knuckle Blunt Medium 01.wav</ShortName>
+					<Path>SFX\CC-DS Punch Knuckle Blunt Medium 01_7DA41813.wem</Path>
+				</File>
+				<File Id="1053666908" Language="SFX">
+					<ShortName>CC-DS Punch Knuckle Bright Medium 02.wav</ShortName>
+					<Path>SFX\CC-DS Punch Knuckle Bright Medium 02_94903103.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

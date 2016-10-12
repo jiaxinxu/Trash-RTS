@@ -173,8 +173,8 @@ ModelImporter:
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
       events:
-      - time: 0.43529412
-        functionName: NewEvent
+      - time: 0.17072013
+        functionName: AttackSound
         data: 
         objectReferenceParameter: {fileID: 11500000, guid: 26292486a76e84f2598fe20b6ba90d12,
           type: 3}

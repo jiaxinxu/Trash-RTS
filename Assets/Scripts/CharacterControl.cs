@@ -78,4 +78,9 @@ public class CharacterControl : MonoBehaviour
             Instantiate(AttackBox, FollowObject.transform.position + new Vector3(0.0f, 0.0f, 0.0f), Quaternion.identity);
         }
     }
+
+    void AttackSound()
+    {
+        AkSoundEngine.PostEvent("Play_BananaAttack", gameObject);
+    }
 }

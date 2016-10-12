@@ -16,9 +16,39 @@ MonoBehaviour:
   - PhysicalPath: Events\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{2154AE95-2F13-41AB-9ED3-86C8F00FEA42}'
-    m_lastTimePsrt1: 2064999080
-    m_lastTimePart2: -1999377460
-    List: []
+    m_lastTimePsrt1: 547345857
+    m_lastTimePart2: -1999375818
+    List:
+    - Name: Play_BananaAttack
+      Path: Default Work Unit\Play_BananaAttack
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_BananaAttack
+        ObjectType: 3
+      ID: -737139911
+      Guid: eb92bc6d7b323b4895c39d58025da648
+      maxAttenuation: 0
+    - Name: Play_DeathScream
+      Path: Default Work Unit\Play_DeathScream
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_DeathScream
+        ObjectType: 3
+      ID: -2000006649
+      Guid: ac3345edd0462f4d82148d17362508ff
+      maxAttenuation: 0
+    - Name: Play_TakeDamage
+      Path: Default Work Unit\Play_TakeDamage
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_TakeDamage
+        ObjectType: 3
+      ID: 1315981400
+      Guid: bd833f7324419146af1a12307f9b3e5a
+      maxAttenuation: 0
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
     ParentPhysicalPath: 
@@ -44,8 +74,8 @@ MonoBehaviour:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{D00CA2CD-1D76-46CB-917A-200411401B62}'
-    m_lastTimePsrt1: 2064799003
-    m_lastTimePart2: -1999377460
+    m_lastTimePsrt1: 1514781542
+    m_lastTimePart2: -1999375818
     List:
     - Name: Main
       Path: Default Work Unit\Main
@@ -56,7 +86,8 @@ MonoBehaviour:
         ObjectType: 7
       ID: -1133058374
       Guid: 9d46aff377ff4740b3c9bebd33ce238f
-  ExpandedItems: []
+  ExpandedItems:
+  - /WwiseForTrashRTS
   m_lastPopulateTimePsrt1: 0
   m_lastPopulateTimePart2: 0
   autoPopulateEnabled: 1

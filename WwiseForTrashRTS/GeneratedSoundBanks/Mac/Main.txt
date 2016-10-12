@@ -1,0 +1,21 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1315981400	Play_TakeDamage			\Default Work Unit\Play_TakeDamage	
+	2294960647	Play_DeathScream			\Default Work Unit\Play_DeathScream	
+	3557827385	Play_BananaAttack			\Default Work Unit\Play_BananaAttack	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	92681106	CC-DS Punch Knuckle Blunt Hard 02	C:\Users\Thomas\Desktop\CTIN-485_Homework\Trash-RTS\WwiseForTrashRTS\.cache\Mac\SFX\CC-DS Punch Knuckle Blunt Hard 02_044B250B.wem		\Actor-Mixer Hierarchy\Default Work Unit\BananaAttack\CC-DS Punch Knuckle Blunt Hard 02		198296
+	128293898	CC-DS Punch Knuckle Blunt Medium 02	C:\Users\Thomas\Desktop\CTIN-485_Homework\Trash-RTS\WwiseForTrashRTS\.cache\Mac\SFX\CC-DS Punch Knuckle Blunt Medium 02_3714957E.wem		\Actor-Mixer Hierarchy\Default Work Unit\BananaAttack\CC-DS Punch Knuckle Blunt Medium 02		183788
+	197603794	CC-CK VO Male 04 Pain Hard	C:\Users\Thomas\Desktop\CTIN-485_Homework\Trash-RTS\WwiseForTrashRTS\.cache\Mac\SFX\CC-CK VO Male 04 Pain Hard_EBE48056.wem		\Actor-Mixer Hierarchy\Default Work Unit\TakeDamage\CC-CK VO Male 04 Pain Hard		133678
+	414665998	CC-CK VO Male 01 Deathscream	C:\Users\Thomas\Desktop\CTIN-485_Homework\Trash-RTS\WwiseForTrashRTS\.cache\Mac\SFX\CC-CK VO Male 01 Deathscream_13E680D0.wem		\Actor-Mixer Hierarchy\Default Work Unit\DeathScream\CC-CK VO Male 01 Deathscream		265464
+	508713509	CC-DS Punch Knuckle Bright Medium 01	C:\Users\Thomas\Desktop\CTIN-485_Homework\Trash-RTS\WwiseForTrashRTS\.cache\Mac\SFX\CC-DS Punch Knuckle Bright Medium 01_A1EDED7B.wem		\Actor-Mixer Hierarchy\Default Work Unit\BananaAttack\CC-DS Punch Knuckle Bright Medium 01		142684
+	514163893	CC-DS Punch Knuckle Bright Hard 01	C:\Users\Thomas\Desktop\CTIN-485_Homework\Trash-RTS\WwiseForTrashRTS\.cache\Mac\SFX\CC-DS Punch Knuckle Bright Hard 01_873FC528.wem		\Actor-Mixer Hierarchy\Default Work Unit\BananaAttack\CC-DS Punch Knuckle Bright Hard 01		226492
+	558522069	CC-CK VO Male 03 Pain Hard	C:\Users\Thomas\Desktop\CTIN-485_Homework\Trash-RTS\WwiseForTrashRTS\.cache\Mac\SFX\CC-CK VO Male 03 Pain Hard_8ED0DAEC.wem		\Actor-Mixer Hierarchy\Default Work Unit\TakeDamage\CC-CK VO Male 03 Pain Hard		139054
+	729850098	CC-CK VO Male 03 Deathscream	C:\Users\Thomas\Desktop\CTIN-485_Homework\Trash-RTS\WwiseForTrashRTS\.cache\Mac\SFX\CC-CK VO Male 03 Deathscream_009B0B5C.wem		\Actor-Mixer Hierarchy\Default Work Unit\DeathScream\CC-CK VO Male 03 Deathscream		228424
+	766597179	CC-CK VO Male 04 Deathscream	C:\Users\Thomas\Desktop\CTIN-485_Homework\Trash-RTS\WwiseForTrashRTS\.cache\Mac\SFX\CC-CK VO Male 04 Deathscream_0D7745EB.wem		\Actor-Mixer Hierarchy\Default Work Unit\DeathScream\CC-CK VO Male 04 Deathscream		222012
+	885820557	CC-CK VO Male 02 Deathscream	C:\Users\Thomas\Desktop\CTIN-485_Homework\Trash-RTS\WwiseForTrashRTS\.cache\Mac\SFX\CC-CK VO Male 02 Deathscream_A3521A3E.wem		\Actor-Mixer Hierarchy\Default Work Unit\DeathScream\CC-CK VO Male 02 Deathscream		143592
+	912931820	CC-CK VO Male 01 Pain Hard	C:\Users\Thomas\Desktop\CTIN-485_Homework\Trash-RTS\WwiseForTrashRTS\.cache\Mac\SFX\CC-CK VO Male 01 Pain Hard_334E3B63.wem		\Actor-Mixer Hierarchy\Default Work Unit\TakeDamage\CC-CK VO Male 01 Pain Hard		88026
+	937239536	CC-DS Punch Knuckle Bright Hard 02	C:\Users\Thomas\Desktop\CTIN-485_Homework\Trash-RTS\WwiseForTrashRTS\.cache\Mac\SFX\CC-DS Punch Knuckle Bright Hard 02_92034ED3.wem		\Actor-Mixer Hierarchy\Default Work Unit\BananaAttack\CC-DS Punch Knuckle Bright Hard 02		202664
+	965464787	CC-DS Punch Knuckle Blunt Medium 01	C:\Users\Thomas\Desktop\CTIN-485_Homework\Trash-RTS\WwiseForTrashRTS\.cache\Mac\SFX\CC-DS Punch Knuckle Blunt Medium 01_7DA41813.wem		\Actor-Mixer Hierarchy\Default Work Unit\BananaAttack\CC-DS Punch Knuckle Blunt Medium 01		158180
+	1053666908	CC-DS Punch Knuckle Bright Medium 02	C:\Users\Thomas\Desktop\CTIN-485_Homework\Trash-RTS\WwiseForTrashRTS\.cache\Mac\SFX\CC-DS Punch Knuckle Bright Medium 02_94903103.wem		\Actor-Mixer Hierarchy\Default Work Unit\BananaAttack\CC-DS Punch Knuckle Bright Medium 02		169208
+

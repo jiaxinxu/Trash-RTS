@@ -23,6 +23,7 @@ public class TakeDamage : MonoBehaviour {
     {
         if (collider.tag == "TrashAttack")
         {
+            AkSoundEngine.PostEvent("Play_TakeDamage", gameObject);
             health--;
             Debug.Log("I'm hit!");
         }
@@ -30,6 +31,7 @@ public class TakeDamage : MonoBehaviour {
 
     void Die()
     {
+        AkSoundEngine.PostEvent("Play_DeathScream", gameObject);
         thePlayer.GetComponent<CharacterControl>().following = false;
         Destroy(this.gameObject);
     }

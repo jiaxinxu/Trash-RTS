@@ -1,27 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValidationCache Version="1" SchemaVersion="72">
-	<ValidationCacheItem File="C:\Users\Thomas\Desktop\CTIN-485_Homework\Trash-RTS\WwiseForTrashRTS\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1477027814" DateHigh="30547381"/>
-	<ValidationCacheItem File="C:\Users\Thomas\Desktop\CTIN-485_Homework\Trash-RTS\WwiseForTrashRTS\Attenuations\Default Work Unit.wwu" DateLow="1477027814" DateHigh="30547381"/>
-	<ValidationCacheItem File="C:\Users\Thomas\Desktop\CTIN-485_Homework\Trash-RTS\WwiseForTrashRTS\Control Surface Sessions\Default Work Unit.wwu" DateLow="1477032807" DateHigh="30547381"/>
-	<ValidationCacheItem File="C:\Users\Thomas\Desktop\CTIN-485_Homework\Trash-RTS\WwiseForTrashRTS\Conversion Settings\Default Work Unit.wwu" DateLow="1477032807" DateHigh="30547381"/>
-	<ValidationCacheItem File="C:\Users\Thomas\Desktop\CTIN-485_Homework\Trash-RTS\WwiseForTrashRTS\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1477037819" DateHigh="30547381"/>
-	<ValidationCacheItem File="C:\Users\Thomas\Desktop\CTIN-485_Homework\Trash-RTS\WwiseForTrashRTS\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1477042825" DateHigh="30547381"/>
-	<ValidationCacheItem File="C:\Users\Thomas\Desktop\CTIN-485_Homework\Trash-RTS\WwiseForTrashRTS\Effects\Default Work Unit.wwu" DateLow="1477042825" DateHigh="30547381"/>
-	<ValidationCacheItem File="C:\Users\Thomas\Desktop\CTIN-485_Homework\Trash-RTS\WwiseForTrashRTS\Effects\Factory Effects.wwu" DateLow="1477072822" DateHigh="30547381"/>
-	<ValidationCacheItem File="C:\Users\Thomas\Desktop\CTIN-485_Homework\Trash-RTS\WwiseForTrashRTS\Events\Default Work Unit.wwu" DateLow="1477077823" DateHigh="30547381"/>
-	<ValidationCacheItem File="C:\Users\Thomas\Desktop\CTIN-485_Homework\Trash-RTS\WwiseForTrashRTS\Game Parameters\Default Work Unit.wwu" DateLow="1477077823" DateHigh="30547381"/>
-	<ValidationCacheItem File="C:\Users\Thomas\Desktop\CTIN-485_Homework\Trash-RTS\WwiseForTrashRTS\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1477082835" DateHigh="30547381"/>
-	<ValidationCacheItem File="C:\Users\Thomas\Desktop\CTIN-485_Homework\Trash-RTS\WwiseForTrashRTS\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1477082835" DateHigh="30547381"/>
-	<ValidationCacheItem File="C:\Users\Thomas\Desktop\CTIN-485_Homework\Trash-RTS\WwiseForTrashRTS\Mixing Sessions\Default Work Unit.wwu" DateLow="1477087836" DateHigh="30547381"/>
-	<ValidationCacheItem File="C:\Users\Thomas\Desktop\CTIN-485_Homework\Trash-RTS\WwiseForTrashRTS\Modulators\Default Work Unit.wwu" DateLow="1477087836" DateHigh="30547381"/>
-	<ValidationCacheItem File="C:\Users\Thomas\Desktop\CTIN-485_Homework\Trash-RTS\WwiseForTrashRTS\Presets\Default Work Unit.wwu" DateLow="1477087836" DateHigh="30547381"/>
-	<ValidationCacheItem File="C:\Users\Thomas\Desktop\CTIN-485_Homework\Trash-RTS\WwiseForTrashRTS\Queries\Default Work Unit.wwu" DateLow="1477092837" DateHigh="30547381"/>
-	<ValidationCacheItem File="C:\Users\Thomas\Desktop\CTIN-485_Homework\Trash-RTS\WwiseForTrashRTS\Queries\Factory Queries.wwu" DateLow="1477097829" DateHigh="30547381"/>
-	<ValidationCacheItem File="C:\Users\Thomas\Desktop\CTIN-485_Homework\Trash-RTS\WwiseForTrashRTS\SoundBanks\Default Work Unit.wwu" DateLow="1477102830" DateHigh="30547381"/>
-	<ValidationCacheItem File="C:\Users\Thomas\Desktop\CTIN-485_Homework\Trash-RTS\WwiseForTrashRTS\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1477107848" DateHigh="30547381"/>
-	<ValidationCacheItem File="C:\Users\Thomas\Desktop\CTIN-485_Homework\Trash-RTS\WwiseForTrashRTS\States\Default Work Unit.wwu" DateLow="1477107848" DateHigh="30547381"/>
-	<ValidationCacheItem File="C:\Users\Thomas\Desktop\CTIN-485_Homework\Trash-RTS\WwiseForTrashRTS\Switches\Default Work Unit.wwu" DateLow="1477112838" DateHigh="30547381"/>
-	<ValidationCacheItem File="C:\Users\Thomas\Desktop\CTIN-485_Homework\Trash-RTS\WwiseForTrashRTS\Triggers\Default Work Unit.wwu" DateLow="1477112838" DateHigh="30547381"/>
-	<ValidationCacheItem File="C:\Users\Thomas\Desktop\CTIN-485_Homework\Trash-RTS\WwiseForTrashRTS\WwiseForTrashRTS.Thomas.wsettings" DateLow="1477022816" DateHigh="30547381"/>
-	<ValidationCacheItem File="C:\Users\Thomas\Desktop\CTIN-485_Homework\Trash-RTS\WwiseForTrashRTS\WwiseForTrashRTS.wproj" DateLow="1477022816" DateHigh="30547381"/>
+	<ValidationCacheItem File="C:\Users\Thomas\Desktop\CTIN-485_Homework\Trash-RTS\WwiseForTrashRTS\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="4264124045" DateHigh="30549022"/>
+	<ValidationCacheItem File="C:\Users\Thomas\Desktop\CTIN-485_Homework\Trash-RTS\WwiseForTrashRTS\Attenuations\Default Work Unit.wwu" DateLow="1486519855" DateHigh="30547381"/>
+	<ValidationCacheItem File="C:\Users\Thomas\Desktop\CTIN-485_Homework\Trash-RTS\WwiseForTrashRTS\Audio Devices\Default Work Unit.wwu" DateLow="1486509858" DateHigh="30547381"/>
+	<ValidationCacheItem File="C:\Users\Thomas\Desktop\CTIN-485_Homework\Trash-RTS\WwiseForTrashRTS\Control Surface Sessions\Default Work Unit.wwu" DateLow="1486449828" DateHigh="30547381"/>
+	<ValidationCacheItem File="C:\Users\Thomas\Desktop\CTIN-485_Homework\Trash-RTS\WwiseForTrashRTS\Conversion Settings\Default Work Unit.wwu" DateLow="1486754935" DateHigh="30547381"/>
+	<ValidationCacheItem File="C:\Users\Thomas\Desktop\CTIN-485_Homework\Trash-RTS\WwiseForTrashRTS\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1486634889" DateHigh="30547381"/>
+	<ValidationCacheItem File="C:\Users\Thomas\Desktop\CTIN-485_Homework\Trash-RTS\WwiseForTrashRTS\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1486544862" DateHigh="30547381"/>
+	<ValidationCacheItem File="C:\Users\Thomas\Desktop\CTIN-485_Homework\Trash-RTS\WwiseForTrashRTS\Effects\Default Work Unit.wwu" DateLow="1486659896" DateHigh="30547381"/>
+	<ValidationCacheItem File="C:\Users\Thomas\Desktop\CTIN-485_Homework\Trash-RTS\WwiseForTrashRTS\Effects\Factory Effects.wwu" DateLow="1486729933" DateHigh="30547381"/>
+	<ValidationCacheItem File="C:\Users\Thomas\Desktop\CTIN-485_Homework\Trash-RTS\WwiseForTrashRTS\Events\Default Work Unit.wwu" DateLow="4264089025" DateHigh="30549022"/>
+	<ValidationCacheItem File="C:\Users\Thomas\Desktop\CTIN-485_Homework\Trash-RTS\WwiseForTrashRTS\Game Parameters\Default Work Unit.wwu" DateLow="1486644893" DateHigh="30547381"/>
+	<ValidationCacheItem File="C:\Users\Thomas\Desktop\CTIN-485_Homework\Trash-RTS\WwiseForTrashRTS\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1486534857" DateHigh="30547381"/>
+	<ValidationCacheItem File="C:\Users\Thomas\Desktop\CTIN-485_Homework\Trash-RTS\WwiseForTrashRTS\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1486744933" DateHigh="30547381"/>
+	<ValidationCacheItem File="C:\Users\Thomas\Desktop\CTIN-485_Homework\Trash-RTS\WwiseForTrashRTS\Mixing Sessions\Default Work Unit.wwu" DateLow="1486434823" DateHigh="30547381"/>
+	<ValidationCacheItem File="C:\Users\Thomas\Desktop\CTIN-485_Homework\Trash-RTS\WwiseForTrashRTS\Modulators\Default Work Unit.wwu" DateLow="1486479839" DateHigh="30547381"/>
+	<ValidationCacheItem File="C:\Users\Thomas\Desktop\CTIN-485_Homework\Trash-RTS\WwiseForTrashRTS\Presets\Default Work Unit.wwu" DateLow="1486464834" DateHigh="30547381"/>
+	<ValidationCacheItem File="C:\Users\Thomas\Desktop\CTIN-485_Homework\Trash-RTS\WwiseForTrashRTS\Queries\Default Work Unit.wwu" DateLow="1486389801" DateHigh="30547381"/>
+	<ValidationCacheItem File="C:\Users\Thomas\Desktop\CTIN-485_Homework\Trash-RTS\WwiseForTrashRTS\Queries\Factory Queries.wwu" DateLow="1486419809" DateHigh="30547381"/>
+	<ValidationCacheItem File="C:\Users\Thomas\Desktop\CTIN-485_Homework\Trash-RTS\WwiseForTrashRTS\SoundBanks\Default Work Unit.wwu" DateLow="4127645225" DateHigh="30549021"/>
+	<ValidationCacheItem File="C:\Users\Thomas\Desktop\CTIN-485_Homework\Trash-RTS\WwiseForTrashRTS\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1486489841" DateHigh="30547381"/>
+	<ValidationCacheItem File="C:\Users\Thomas\Desktop\CTIN-485_Homework\Trash-RTS\WwiseForTrashRTS\States\Default Work Unit.wwu" DateLow="1486669911" DateHigh="30547381"/>
+	<ValidationCacheItem File="C:\Users\Thomas\Desktop\CTIN-485_Homework\Trash-RTS\WwiseForTrashRTS\Switches\Default Work Unit.wwu" DateLow="1486784956" DateHigh="30547381"/>
+	<ValidationCacheItem File="C:\Users\Thomas\Desktop\CTIN-485_Homework\Trash-RTS\WwiseForTrashRTS\Triggers\Default Work Unit.wwu" DateLow="1486559875" DateHigh="30547381"/>
+	<ValidationCacheItem File="C:\Users\Thomas\Desktop\CTIN-485_Homework\Trash-RTS\WwiseForTrashRTS\WwiseForTrashRTS.Thomas.wsettings" DateLow="4276231293" DateHigh="30549022"/>
+	<ValidationCacheItem File="C:\Users\Thomas\Desktop\CTIN-485_Homework\Trash-RTS\WwiseForTrashRTS\WwiseForTrashRTS.wproj" DateLow="1486359796" DateHigh="30547381"/>
 </ValidationCache>

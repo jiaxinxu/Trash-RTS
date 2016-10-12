@@ -1,6 +1,362 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{BBB73B5D-0940-437F-B287-B1FD4CD76540}" SchemaVersion="72">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{BBB73B5D-0940-437F-B287-B1FD4CD76540}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{BBB73B5D-0940-437F-B287-B1FD4CD76540}" PersistMode="Standalone">
+			<ChildrenList>
+				<RandomSequenceContainer Name="BananaAttack" ID="{B28E5E7D-6C10-48B1-96CF-2F5F2361F229}" ShortID="512814366">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{843DA67F-B1E1-4FDA-8F8C-C730FA6E348F}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A4533B3C-3A80-4242-BA9E-70D57573F721}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="CC-DS Punch Knuckle Bright Hard 02" ID="{067D4DB0-F549-420D-9DBE-A796CD170D0A}" ShortID="801956801" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{843DA67F-B1E1-4FDA-8F8C-C730FA6E348F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A4533B3C-3A80-4242-BA9E-70D57573F721}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="CC-DS Punch Knuckle Bright Hard 02" ID="{0715525E-EBD8-495F-A4AE-4E2A0747B64F}" ShortID="937239536">
+									<PropertyList>
+										<Property Name="LoopEnd" Type="Real64" Value="0.772730402542373"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="1.05523399056862"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>CC-DS Punch Knuckle Bright Hard 02.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="CC-DS Punch Knuckle Bright Hard 02" ID="{0715525E-EBD8-495F-A4AE-4E2A0747B64F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="CC-DS Punch Knuckle Blunt Medium 01" ID="{6DC4835E-60B4-4728-9B80-B5B7E555D96E}" ShortID="787175084" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{843DA67F-B1E1-4FDA-8F8C-C730FA6E348F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A4533B3C-3A80-4242-BA9E-70D57573F721}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="CC-DS Punch Knuckle Blunt Medium 01" ID="{3C803C0F-4758-47FA-BBDE-0A6BB5B11C8B}" ShortID="965464787">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.823544969928923"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>CC-DS Punch Knuckle Blunt Medium 01.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="CC-DS Punch Knuckle Blunt Medium 01" ID="{3C803C0F-4758-47FA-BBDE-0A6BB5B11C8B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="CC-DS Punch Knuckle Bright Hard 01" ID="{B7393C26-0C5C-425E-ACC7-0D5A01A1B2BB}" ShortID="898377855" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{843DA67F-B1E1-4FDA-8F8C-C730FA6E348F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A4533B3C-3A80-4242-BA9E-70D57573F721}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="CC-DS Punch Knuckle Bright Hard 01" ID="{31E4CC2E-CCA8-48D2-A281-071ECA038437}" ShortID="514163893">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="1.1793220338983"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>CC-DS Punch Knuckle Bright Hard 01.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="CC-DS Punch Knuckle Bright Hard 01" ID="{31E4CC2E-CCA8-48D2-A281-071ECA038437}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="CC-DS Punch Knuckle Blunt Hard 02" ID="{DD82C82C-AD40-4A07-A41D-BAB14310E2F1}" ShortID="773042357" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{843DA67F-B1E1-4FDA-8F8C-C730FA6E348F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A4533B3C-3A80-4242-BA9E-70D57573F721}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="CC-DS Punch Knuckle Blunt Hard 02" ID="{FBE175EF-DDED-4AAD-A674-CF733E255658}" ShortID="92681106">
+									<PropertyList>
+										<Property Name="LoopEnd" Type="Real64" Value="0.99917646254784"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="1.03248234463277"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>CC-DS Punch Knuckle Blunt Hard 02.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="CC-DS Punch Knuckle Blunt Hard 02" ID="{FBE175EF-DDED-4AAD-A674-CF733E255658}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="CC-DS Punch Knuckle Blunt Medium 02" ID="{0B7D786F-B0D6-4D04-ADEA-AED0E1D1BFBF}" ShortID="54326268" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{843DA67F-B1E1-4FDA-8F8C-C730FA6E348F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A4533B3C-3A80-4242-BA9E-70D57573F721}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="CC-DS Punch Knuckle Blunt Medium 02" ID="{F1818997-1D76-46CC-A0ED-FCF2C5904E84}" ShortID="128293898">
+									<PropertyList>
+										<Property Name="LoopEnd" Type="Real64" Value="0.686225219837798"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.956916137005649"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>CC-DS Punch Knuckle Blunt Medium 02.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="CC-DS Punch Knuckle Blunt Medium 02" ID="{F1818997-1D76-46CC-A0ED-FCF2C5904E84}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="CC-DS Punch Knuckle Bright Medium 02" ID="{08388969-A80E-4656-AA82-8236D1C5E775}" ShortID="362490085" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{843DA67F-B1E1-4FDA-8F8C-C730FA6E348F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A4533B3C-3A80-4242-BA9E-70D57573F721}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="CC-DS Punch Knuckle Bright Medium 02" ID="{1B57DE61-E280-45FF-A6D3-8BABF9BA2624}" ShortID="1053666908">
+									<PropertyList>
+										<Property Name="TrimEnd" Type="Real64" Value="0.880964022917805"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>CC-DS Punch Knuckle Bright Medium 02.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="CC-DS Punch Knuckle Bright Medium 02" ID="{1B57DE61-E280-45FF-A6D3-8BABF9BA2624}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="CC-DS Punch Knuckle Bright Medium 01" ID="{78794334-CB6D-4299-976B-AC2F21040992}" ShortID="803807017" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{843DA67F-B1E1-4FDA-8F8C-C730FA6E348F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A4533B3C-3A80-4242-BA9E-70D57573F721}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="CC-DS Punch Knuckle Bright Medium 01" ID="{FA84B457-AA4E-4B77-B1A5-2A92B946B9B4}" ShortID="508713509">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.74283317956078"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>CC-DS Punch Knuckle Bright Medium 01.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="CC-DS Punch Knuckle Bright Medium 01" ID="{FA84B457-AA4E-4B77-B1A5-2A92B946B9B4}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="DeathScream" ID="{579C2D00-3BD4-4CA7-9744-B55395285D42}" ShortID="302332632">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{843DA67F-B1E1-4FDA-8F8C-C730FA6E348F}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A4533B3C-3A80-4242-BA9E-70D57573F721}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="CC-CK VO Male 03 Deathscream" ID="{1E60791E-0067-4D67-8305-F7333C98927D}" ShortID="575096211" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{843DA67F-B1E1-4FDA-8F8C-C730FA6E348F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A4533B3C-3A80-4242-BA9E-70D57573F721}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="CC-CK VO Male 03 Deathscream" ID="{8348C6CD-59B7-4366-9460-3C77DFF3A6E3}" ShortID="729850098">
+									<PropertyList>
+										<Property Name="TrimEnd" Type="Real64" Value="2.37874248223073"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>CC-CK VO Male 03 Deathscream.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="CC-CK VO Male 03 Deathscream" ID="{8348C6CD-59B7-4366-9460-3C77DFF3A6E3}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="CC-CK VO Male 04 Deathscream" ID="{5E92232B-4CF3-42BC-AA25-3F7EA93CB31B}" ShortID="820799763" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{843DA67F-B1E1-4FDA-8F8C-C730FA6E348F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A4533B3C-3A80-4242-BA9E-70D57573F721}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="CC-CK VO Male 04 Deathscream" ID="{C6D02668-C197-4C39-A2C2-ECECE46F081C}" ShortID="766597179">
+									<PropertyList>
+										<Property Name="TrimEnd" Type="Real64" Value="2.31196063422635"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>CC-CK VO Male 04 Deathscream.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="CC-CK VO Male 04 Deathscream" ID="{C6D02668-C197-4C39-A2C2-ECECE46F081C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="CC-CK VO Male 02 Deathscream" ID="{C0A53F1B-3541-4157-875F-B84AADED5A0E}" ShortID="952244507" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{843DA67F-B1E1-4FDA-8F8C-C730FA6E348F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A4533B3C-3A80-4242-BA9E-70D57573F721}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="CC-CK VO Male 02 Deathscream" ID="{F92C07A3-5DED-44E9-83BF-C348072C7E4D}" ShortID="885820557">
+									<PropertyList>
+										<Property Name="TrimEnd" Type="Real64" Value="1.49508292327319"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>CC-CK VO Male 02 Deathscream.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="CC-CK VO Male 02 Deathscream" ID="{F92C07A3-5DED-44E9-83BF-C348072C7E4D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="CC-CK VO Male 01 Deathscream" ID="{7772A6E5-A022-453B-B7E2-F413D6312F89}" ShortID="761740596" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{843DA67F-B1E1-4FDA-8F8C-C730FA6E348F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A4533B3C-3A80-4242-BA9E-70D57573F721}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="CC-CK VO Male 01 Deathscream" ID="{A5455069-0E76-40B4-BE4F-C60FC0CC3DDC}" ShortID="414665998">
+									<PropertyList>
+										<Property Name="TrimEnd" Type="Real64" Value="2.76458538363405"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>CC-CK VO Male 01 Deathscream.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="CC-CK VO Male 01 Deathscream" ID="{A5455069-0E76-40B4-BE4F-C60FC0CC3DDC}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="TakeDamage" ID="{916C5731-2796-40FD-8636-0E6867A2E1E8}" ShortID="735609423">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{843DA67F-B1E1-4FDA-8F8C-C730FA6E348F}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A4533B3C-3A80-4242-BA9E-70D57573F721}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="CC-CK VO Male 01 Pain Hard" ID="{BA6D21A2-D201-4F20-98AD-233C3001002D}" ShortID="211526493" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{843DA67F-B1E1-4FDA-8F8C-C730FA6E348F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A4533B3C-3A80-4242-BA9E-70D57573F721}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="CC-CK VO Male 01 Pain Hard" ID="{6D990A5C-82DA-4525-8ABC-45B2DCD554CC}" ShortID="912931820">
+									<PropertyList>
+										<Property Name="TrimEnd" Type="Real64" Value="0.916277747402951"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>CC-CK VO Male 01 Pain Hard.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="CC-CK VO Male 01 Pain Hard" ID="{6D990A5C-82DA-4525-8ABC-45B2DCD554CC}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="CC-CK VO Male 03 Pain Hard" ID="{7F4651ED-0B3F-440A-BB1C-35DD9A72BFD4}" ShortID="301203567" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{843DA67F-B1E1-4FDA-8F8C-C730FA6E348F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A4533B3C-3A80-4242-BA9E-70D57573F721}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="CC-CK VO Male 03 Pain Hard" ID="{A814852E-C18A-4F17-8B75-14AB9EEFEE8E}" ShortID="558522069">
+									<PropertyList>
+										<Property Name="TrimEnd" Type="Real64" Value="1.4478148350647"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>CC-CK VO Male 03 Pain Hard.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="CC-CK VO Male 03 Pain Hard" ID="{A814852E-C18A-4F17-8B75-14AB9EEFEE8E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="CC-CK VO Male 04 Pain Hard" ID="{B102B6C2-2D2D-4E55-847A-93402413BCCD}" ShortID="78126328" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{843DA67F-B1E1-4FDA-8F8C-C730FA6E348F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A4533B3C-3A80-4242-BA9E-70D57573F721}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="CC-CK VO Male 04 Pain Hard" ID="{54FA76EE-F8E6-48B3-8977-7D4E0815A61F}" ShortID="197603794">
+									<PropertyList>
+										<Property Name="TrimEnd" Type="Real64" Value="1.39182212502278"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>CC-CK VO Male 04 Pain Hard.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="CC-CK VO Male 04 Pain Hard" ID="{54FA76EE-F8E6-48B3-8977-7D4E0815A61F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>
