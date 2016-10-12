@@ -1,0 +1,73 @@
+Initialize engine version: 5.4.1f1 (649f48bbbf0f)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 780 (ID=0x1004)
+    Vendor:   NVIDIA
+    VRAM:     3039 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Thomas\Desktop\CTIN-485_Homework\Trash-RTS\TrashRTSBuild_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Thomas\Desktop\CTIN-485_Homework\Trash-RTS\TrashRTSBuild_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Thomas\Desktop\CTIN-485_Homework\Trash-RTS\TrashRTSBuild_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Thomas\Desktop\CTIN-485_Homework\Trash-RTS\TrashRTSBuild_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Thomas\Desktop\CTIN-485_Homework\Trash-RTS\TrashRTSBuild_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Thomas\Desktop\CTIN-485_Homework\Trash-RTS\TrashRTSBuild_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Thomas\Desktop\CTIN-485_Homework\Trash-RTS\TrashRTSBuild_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Thomas\Desktop\CTIN-485_Homework\Trash-RTS\TrashRTSBuild_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+- Completed reload, in  0.043 seconds
+Platform assembly: C:\Users\Thomas\Desktop\CTIN-485_Homework\Trash-RTS\TrashRTSBuild_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Thomas\Desktop\CTIN-485_Homework\Trash-RTS\TrashRTSBuild_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI.Hid> Failed to create device file:
+ 2 The system cannot find the file specified.
+
+ 
+(Filename:  Line: 54)
+
+<RI> Input initialized.
+<RI> Initialized touch support.
+The referenced script on this Behaviour (Game Object 'Player Controller') is missing!
+ 
+(Filename:  Line: 1656)
+
+UnloadTime: 0.717769 ms
+WwiseUnity: Initialize sound engine ...
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+WwiseUnity: Sound engine initialized.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 1920 -> priority: 1 
+  Thread -> id: 45e0 -> priority: 1 
+banana (UnityEngine.GameObject)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+right click
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+test
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+right click
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+test
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+I'm hit!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+I'm hit!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
